@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<goodread:DataBase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:goodread="www.example.com/goodread">
+  <people name="Srinivas Gudla">
+    <shelves name="Currently Reading" books="//@books.0 //@books.1"/>
+    <shelves name="Read" books="//@books.2"/>
+  </people>
+  <people name="Sravanthi Gudla">
+    <shelves name="Currently Reading" books="//@books.3"/>
+  </people>
+  <books name="Thinking Fast and Slow" author="Kahneman, Daniel" avgRating="3" presentIn="//@people.0/@shelves.0"/>
+  <books name="How to Win Friends and Influence People" author="Carnegie, Dale" avgRating="4" presentIn="//@people.0/@shelves.0"/>
+  <books name="The Discovery of India" author="Nehru, Jawaharlal" avgRating="4" presentIn="//@people.0/@shelves.1"/>
+  <books name="How Google Works" author="Eric Schmidt" avgRating="3" presentIn="//@people.1/@shelves.0"/>
+</goodread:DataBase>
