@@ -13,5 +13,15 @@
             class="model.ModelPackage"
             genModel="model/goodreads.genmodel"/>
    </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.example.goodread.ui.GoodReadsEditor"
+            default="false"
+            extensions="model"
+            id="com.example.goodreads.model.editor1"
+            name="Good Reads Editor">
+      </editor>
+   </extension>
 
 </plugin>

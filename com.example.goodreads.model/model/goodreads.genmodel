@@ -10,6 +10,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute goodreads.ecore#//Book/name"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute goodreads.ecore#//Book/author"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute goodreads.ecore#//Book/avgRating"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference goodreads.ecore#//Book/presentIn"/>
     </genClasses>
     <genClasses ecoreClass="goodreads.ecore#//Person">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute goodreads.ecore#//Person/name"/>
@@ -19,6 +20,7 @@
     <genClasses ecoreClass="goodreads.ecore#//BookShelf">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute goodreads.ecore#//BookShelf/name"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference goodreads.ecore#//BookShelf/books"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference goodreads.ecore#//BookShelf/ownedBy"/>
     </genClasses>
     <genClasses ecoreClass="goodreads.ecore#//DataBase">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference goodreads.ecore#//DataBase/people"/>
